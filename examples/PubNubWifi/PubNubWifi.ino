@@ -22,6 +22,8 @@ This code is in the public domain.
 #include <LWiFiClient.h>
 
 // WIFI connection credentials
+#define WIFI_AP "SSID"
+#define WIFI_PASSWORD "password"
 #define WIFI_AUTH LWIFI_WPA // choose from LWIFI_OPEN, LWIFI_WPA, or LWIFI_WEP. 
 
 const int subLedPin = 10;
