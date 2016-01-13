@@ -21,10 +21,8 @@ This code is in the public domain.
 //#include "LWiFi\LWiFiClient.h"
 #include <LWiFiClient.h>
 
-
-#define WIFI_AP "RP95" // provide your WIFI_AP name
-#define WIFI_PASSWORD "355972054522595" //provide your WIFI password
-#define WIFI_AUTH LWIFI_WPA
+// WIFI connection credentials
+#define WIFI_AUTH LWIFI_WPA // choose from LWIFI_OPEN, LWIFI_WPA, or LWIFI_WEP. 
 
 const int subLedPin = 10;
 const int pubLedPin = 13;

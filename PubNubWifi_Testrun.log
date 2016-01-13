@@ -1,0 +1,29 @@
+Serial set up
+Connecting to AP
+Connected to AP
+PubNub set up
+publishing a message
+[1,"Sent","14472756261593941"]
+waiting for a message (subscribe)
+[]
+retrieving message history
+[{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},{"advisorId":22931282,"state":"unavailable"},{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"Hello World","Hello World",{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said."]
+publishing a message
+[1,"Sent","14472756396289661"]
+waiting for a message (subscribe)
+["\"Hello world!\" she said."]
+retrieving message history
+[{"advisorId":22931282,"state":"unavailable"},{"advisorId":22931282,"state":"unavailable"},{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"Hello World","Hello World",{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said.","\"Hello world!\" she said."]
+publishing a message
+[1,"Sent","14472756532779272"]
+waiting for a message (subscribe)
+["Hi","\"Hello world!\" she said."]
+retrieving message history
+[{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"Hello World","Hello World",{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said.","\"Hello world!\" she said.","Hi","\"Hello world!\" she said."]
+publishing a message
+[1,"Sent","14472756666832312"]
+waiting for a message (subscribe)
+[{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said."]
+retrieving message history
+["Hello World",{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said.","\"Hello world!\" she said.","Hi","\"Hello world!\" she said.",{"advisorId":22931317,"state":"available"},{"advisorId":22931282,"state":"unavailable"},"\"Hello world!\" she said."]
+publishing a message
